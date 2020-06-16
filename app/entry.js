@@ -3,6 +3,7 @@ import $ from 'jquery';
 import io from 'socket.io-client';
 
 //コミットテスト0616
+//こみっとてすと0616
 const gameObj = {
     raderCanvasWidth: 500,
     raderCanvasHeight: 500,
