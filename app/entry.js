@@ -25,6 +25,8 @@ const gameObj = {
     fieldHeight: null,
     itemsMap: new Map(),
     airMap: new Map()
+// マージテスト
+//test
 };
 
 const socketQueryParameters = `displayName=${gameObj.myDisplayName}&thumbUrl=${gameObj.myThumbUrl}`;
