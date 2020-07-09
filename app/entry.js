@@ -23,9 +23,33 @@ const gameObj = {
     myThumbUrl: $('#main').attr('data-thumbUrl'),
     fieldWidth: null,
     fieldHeight: null,
+    // test
     itemsMap: new Map(),
     airMap: new Map()
 };
+
+// const gameObj = {
+//     raderCanvasWidth: 500,
+//     raderCanvasHeight: 500,
+//     scoreCanvasWidth: 300,
+//     scoreCanvasHeight: 500,
+//     itemRadius: 4,
+//     airRadius: 5,
+//     deg: 0,
+//     counter: 0,
+//     rotationDegreeByDirection: {
+//         'left': 0,
+//         'up': 270,
+//         'down': 90,
+//         'right': 0
+//     },
+//     myDisplayName: $('#main').attr('data-displayName'),
+//     myThumbUrl: $('#main').attr('data-thumbUrl'),
+//     fieldWidth: null,
+//     fieldHeight: null,
+//     itemsMap: new Map(),
+//     airMap: new Map()
+// };
 
 const socketQueryParameters = `displayName=${gameObj.myDisplayName}&thumbUrl=${gameObj.myThumbUrl}`;
 const socket = io($('#main').attr('data-ipAddress') + '?' + socketQueryParameters);
